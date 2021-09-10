@@ -1,0 +1,25 @@
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.card {
+  width: 180px;
+  height: 270px;
+  border: none;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.card__title {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.card__image {
+  width: 160px;
+  height: 230px;
+  background-size: 100%;
+  background-position: center center;
+}
